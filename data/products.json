@@ -1,0 +1,181 @@
+[{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed63"
+  },
+  "product_id": "product01",
+  "name": "Kem dưỡng ẩm trà xanh Innisfree Green Tea Seed Hyaluronic Cream 50ml",
+  "description": "Kem dưỡng ẩm trà xanh innisfree Green Tea Seed Cream, giải pháp cấp ẩm và làm dịu cho da bổ sung lớp màng dưỡng ẩm để bảo bệ da khỏi những tác hại bởi việc mất nước gây ra.",
+  "richDescription": "Beauty Green Tea TM: Mang đến nhiều lợi ích cho làn da, Beauty Green Tea TM mang màu sắc đậm hơn nhờ có hàm lượng thành phần dưỡng ẩm cho da (theanine) cao gấp 1,67 lần và mức độ chlorophyll cao hơn so với trà xanh thông thường. Tỏa sáng: Thẩm thấu hoàn toàn vào da, giúp da bạn ẩm, mướt, tỏa sáng và sẵn sàng trang điểm. Hàng rào độ ẩm: Tăng cường hàng rào độ ẩm là điều cơ bản cho làn da khỏe mạnh.",
+  "image": "https://i.pinimg.com/736x/07/ad/f5/07adf5680dac93ce191c14cd6bb72b3a.jpg",
+  "images": [],
+  "brand": "INNISFREE",
+  "price": 468000,
+  "category": "6589aaf2bcfeb507d8e3ed50",
+  "countInStock": 500,
+  "rating": 5,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed64"
+  },
+  "product_id": "product02",
+  "name": "Sữa dưỡng ẩm da từ trà xanh Innisfree Green Tea Hyaluronic Lotion 170 ml",
+  "description": "Sữa dưỡng cân bằng độ ẩm innisfree Green Tea Hyaluronic Lotion chiết xuất từ trà xanh cho làn da mềm mại và mịn màng với lượng dầu và độ ẩm cân bằng.",
+  "richDescription": "Beauty Green Tea TM: Mang đến nhiều lợi ích cho làn da, Beauty Green Tea TM mang màu sắc đậm hơn nhờ có hàm lượng thành phần dưỡng ẩm cho da (theanine) cao gấp 1,67 lần và mức độ chlorophyll cao hơn so với trà xanh thông thường. Kết cấu dạng sữa: Kết cấu dạng sữa nhanh chóng thẩm thấu vào da không gây bếch dính, mang lại lớp nền mịn màng và ngăn ngừa lớp trang điểm bị bong tróc hoặc vón cục. Không gây căng bóng: Cân bằng dầu và độ ẩm mang lại làn da tươi mát tự nhiên",
+  "image": "https://i.pinimg.com/736x/e2/58/75/e25875ee81a7918779a7552a884c0d23.jpg",
+  "images": [],
+  "brand": "INNISFREE",
+  "price": 430000,
+  "category": "6589aaf2bcfeb507d8e3ed50",
+  "countInStock": 1000,
+  "rating": 4,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed65"
+  },
+  "product_id": "product03",
+  "name": "Tinh chất Innisfree Green Tea Seed Hyaluronic Serum 30 ml",
+  "description": "Sản phẩm dưỡng ẩm số 1 tại Hàn Quốc được nâng cấp với khả năng dưỡng ẩm, giúp giảm tình trạng khô da hiệu quả.",
+  "richDescription": "Sản phẩm dưỡng da Green Tea Seed Hyaluronic Serum với sự kết hợp từ trà xanh và Hyaluronic Acid giúp dưỡng ẩm đem đến làn da trông khỏe mạnh và rạng rỡ. Cảm nhận giảm tình trạng khô da rõ rệt ngay sau khi sử dụng. Dưỡng chất thẩm thấu và bổ sung độ ẩm hiệu quả cho da, từ da khô đến da dầu. Giúp dưỡng ẩm trên da cả ngày dài. Giúp cấp ẩm của da giúp làn da của bạn thoát khỏi tình trạng thiếu ẩm cả ngày do tác động môi trường bên ngoài",
+  "image": "https://i.pinimg.com/736x/87/f4/81/87f481400eeef5ece45cec9203d6bcca.jpg",
+  "images": [],
+  "brand": "INNISFREE",
+  "price": 340000,
+  "category": "6589aaf2bcfeb507d8e3ed54",
+  "countInStock": 1500,
+  "rating": 5,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed66"
+  },
+  "product_id": "product04",
+  "name": "Sữa rửa mặt dưỡng ẩm trà xanh Innisfree Green Tea Amino Cleansing Foam 150g",
+  "description": "Sữa rửa mặt trà xanh innisfree Green Tea Amino Cleansing Foam làm sạch tạp chất, đồng thời dưỡng ẩm để làn da sạch sẽ, mịn màng.",
+  "richDescription": "Sản phẩm dưỡng ẩm số 1 tại Hàn Quốc được nâng cấp với khả năng dưỡng ẩm, giúp giảm tình trạng khô da hiệu quả. Duy trì độ ẩm cho da trong suốt 72H. Axit Hyaluronic được cải tiến với công thức mới, giúp thẩm thấu vào da và hiệu quả lâu dài. Công thức từ INNISFREE với thành phần chiết xuất từ trà xanh có tên gọi là Beauty Green Tea",
+  "image": "https://i.pinimg.com/736x/57/d4/93/57d493901a0ad75fd292373258abe082.jpg",
+  "images": [],
+  "brand": "INNISFREE",
+  "price": 210000,
+  "category": "6589aaf2bcfeb507d8e3ed4c",
+  "countInStock": 2000,
+  "rating": 4,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed67"
+  },
+  "product_id": "product05",
+  "name": "Set 5 Mặt Nạ Peptide Săn Chắc Da AHC",
+  "description": "Mặt Nạ Dưỡng Da Cao Cấp Peptide 5 Complex Là Một Giải Pháp Làm Săn Chắc Da Giúp Cải Thiện Độ Đàn Hồi Của Da, Và Tấm Cellulose Phù Hợp Cao, Nhẹ Nhàng Bao Bọc Da. ",
+  "richDescription": "Thành phần: Peptide 5 Complex là hợp chất giúp cải thiện độ đàn hồi và giảm nếp  nhăn, giúp da trông săn chắc . Plankton (patented) trong mặt nạ cải thiện và giữ ẩm cho da, làm giảm sự xuất hiện các nếp nhăn giúp da tràn đầy sức sống  Công dụng: Mặt nạ dưỡng da cao cấp Peptide 5 Complex là một giải pháp làm săn chắc da giúp cải thiện độ đàn hồi của da, và tấm cellulose phù hợp cao, nhẹ nhàng bao bọc da.  Hướng dẫn sử dụng: Sau khi làm sạch và sử dụng một toner, đặt mặt nạ dưỡng ẩm AHC lên mặt, làm mịn các nếp nhăn và bong bóng. Sau 10 đến 20 phút, loại bỏ mặt nạ, và nhẹ dùng các tinh chất còn lại trong gói mặt nạ mát xa cho đến khi da thẩm thấu hoàn toàn. Để có kết quả tốt nhất, hãy làm lạnh trước khi sử dụng cho đến khi vòng tròn nhiệt kế ở mặt sau của túi chuyển sang màu xanh lá cây. ",
+  "image": "https://i.pinimg.com/736x/65/af/7f/65af7fc87e00f1090c1af3e8a46350e9.jpg",
+  "images": [],
+  "brand": "AHC",
+  "price": 534000,
+  "category": "6589aaf2bcfeb507d8e3ed53",
+  "countInStock": 2500,
+  "rating": 5,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed68"
+  },
+  "product_id": "product06",
+  "name": "Set 5 Mặt Nạ Vàng 24K Chống Lão Hóa AHC",
+  "description": "Với Cấu Tạo Ba Đặc Biệt Và Mỏng Bao Gồm Lớp Foil, Lớp Matrix, Lớp Tencel Khiến Làn Da Ấm Nóng Tạo Hiệu Ứng Hơi Nước Để Mở Lỗ Chân Lông Và Cho Phép Chất Dinh Dưỡng Nhanh Chóng Thấm Vào Da Khiến Da Luôn Ngậm Nước Và Đàn Hồi.",
+  "richDescription": "Thành phần: Vitamin B5 làm mềm và làm dịu da, giữ ẩm tuyệt vời để nuôi dưỡng làn da tốt nhất. Hyaluronic Acid - một thành phần có trong tế bào da, là nơi lưu trữ các phân tử nước khiến cho làn da căng mịn, và khỏe khoắn. Với cấu tạo ba đặc biệt và mỏng bao gồm lớp Foil, lớp Matrix, lớp Tencel khiến làn da ấm nóng tạo hiệu ứng hơi nước để mở lỗ chân lông và cho phép chất dinh dưỡng nhanh chóng thấm vào da khiến da luôn ngậm nước và đàn hồi. Công dụng: Nuôi dưỡng và khôi phục làn da hư tổn. Duy trì lương độ ẩm cẩn thiết cho làn da căng mọng. Cân bằng các sắc tố dưới da, dưỡng da hồng hào và tươi tắn. Xóa mờ những nếp nhăn, duy trì sự căng mịn",
+  "image": "https://i.pinimg.com/736x/04/93/0d/04930d68ec394171fb3d8be7c0d14c87.jpg",
+  "images": [],
+  "brand": "AHC",
+  "price": 850000,
+  "category": "6589aaf2bcfeb507d8e3ed53",
+  "countInStock": 3000,
+  "rating": 4,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed69"
+  },
+  "product_id": "product07",
+  "name": "Kem dưỡng mắt AHC Luminous Glow Eye Cream for Face 30ml",
+  "description": "Một sản phẩm đa năng chống lại 8 dấu hiệu lão hóa chỉ với một bước dưỡng đơn giản, giúp làn da tươi sáng và rạng rỡ hơn.",
+  "richDescription": "Chứa Glutathione giàu chất chống oxy hóa, Axit Hyaluronic, Alpha-bisabolol, dẫn xuất Vitamin C và Adenosine trong một tổ hợp Gluta-i Complex ™ độc đáo - được chứng minh lâm sàng làm sáng màu da trong 14 ngày. Với công nghệ Micro Capsule đã được cấp bằng sáng chế và ứng dụng cho kem dưỡng mắt AHC Luminous Glow Eye Cream for Face, cho kết cấu kem nhẹ và thẩm thấu nhanh, mang đến hiệu quả dưỡng sáng và chống lão hóa toàn diện cho làn da. Đến từ thương hiệu chăm sóc da số 1 tại Hàn Quốc, AHC Luminous Glow Eye Cream for Face đã được bác sĩ da liễu kiểm nghiệm. Công dụng: Kem dưỡng mắt giúp giảm quầng thâm và sáng da trong 14 ngày. Tổ hợp Gluta-i Complex™ độc quyền cùng công nghệ micro-capsule hỗ trợ sáng da toàn diện và hiệu quả cho vùng da mắt và mặt. HDSD: Lấy một lượng sản phẩm vừa đủ và làm ấm sản phẩm bằng cách xoa hai ngón áp út với nhau. Vỗ nhẹ sản phẩm lên khắp vùng da mắt và mặt. Mát xa nhẹ nhàng để tăng khả năng thẩm thấu sản phẩm. Chú ý: Chỉ sử dụng ngoài da. Tránh tiếp xúc với mắt. Để xa tầm tay trẻ em. Không dùng khi có dấu hiệu dị ứng. Bảo quản nơi thoáng mát, tránh ánh nắng trực tiếp.",
+  "image": "https://i.pinimg.com/736x/de/86/6f/de866ff998609966992d6f761f7d09b8.jpg",
+  "images": [],
+  "brand": "AHC",
+  "price": 528000,
+  "category": "6589aaf2bcfeb507d8e3ed50",
+  "countInStock": 3500,
+  "rating": 5,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed6a"
+  },
+  "product_id": "product08",
+  "name": "Kem Dưỡng Mắt Chống Lão Hóa Cho Toàn Mặt AHC Age Defense Real Eye Cream For Face 40ml",
+  "description": "Kem Dưỡng Chống Lão Hoá 2-Trong-1 Cho Mắt Và Mặt Giúp Chống Lại 7 Loại Nếp Nhăn Trong 7 Ngày. Công Nghệ Độc Quyền Gold Peptide Tăng Tỷ Lệ Sản Sinh Collagen 173% Và Giảm 55% Nếp Nhăn Trong Vòng 4 Tuần. Phức Hợp Power Golden Thread Mang 4 Loại Hợp Chất Sợi Vàng Giúp Tăng Cường Tác Dụng Chống Lão Hoá.",
+  "richDescription": "Kem dưỡng chống lão hoá 2-trong-1 cho mắt và mặt AHC Age Defense Real Eye Cream For Face là cải tiến mới nhất từ AHC, được đặc chế để bổ sung những hoạt chất chống lão hoá hiệu quả nhất cho mắt và mặt, với công dụng nổi bật: Được chứng minh lâm sàng chống lại 7 loại nếp nhăn trong 7 ngày. Cải thiện tức thì 123% độ ẩm & 14% độ đàn hồi ngay sau 1 lần sử dụng. Nâng cơ rõ rệt, săn chắc làn da & giảm sự xuất hiện của nếp nhăn chỉ sau 1 tuần. Công nghệ độc quyền mới giúp đóng băng tuổi thanh xuân Gold Peptide. Phức hợp Power Golden Thread. Công nghệ hạt siêu mịn Ultrafine Micro giúp dưỡng chất có kích thước bằng 1/300 lỗ chân lông, giúp thẩm thấu nhanh và sâu",
+  "image": "https://i.pinimg.com/736x/07/bc/fd/07bcfd1fa1e7e170ce5894ea29e63d73.jpg",
+  "images": [],
+  "brand": "AHC",
+  "price": 840000,
+  "category": "6589aaf2bcfeb507d8e3ed50",
+  "countInStock": 4000,
+  "rating": 4,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6589b537bcfeb507d8e3ed6b"
+  },
+  "product_id": "product09",
+  "name": "Mặt nạ Cấp Ẩm Phục hồi đa năng - AHC Premium Ex Hydra B5 Double Cushion Sleeping Mask 60g",
+  "description": "Mặt nạ ngủ cấp ẩm phục hồi đa năng với công thức kép với Gel và Kem dưỡng, giúp loại bỏ tế bào chết trên da, đồng thời phục hồi và cung cấp độ ẩm cần thiết nhằm tăng cường hàng rào bảo vệ da. Công nghệ Jelly Liposome giúp dưỡng chất thấm sâu và nhanh chóng. Sản phẩm đã được chứng minh lâm sàng an toàn và lành tính cho da.",
+  "richDescription": "Công dụng:  Mặt nạ ngủ cấp ẩm phục hồi đa năng với công thức kép với Gel và Kem dưỡng, giúp loại bỏ tế bào chết trên da, đồng thời phục hồi và cung cấp độ ẩm cần thiết nhằm tăng cường hàng rào bảo vệ da. Công nghệ Jelly Liposome giúp dưỡng chất thấm sâu và nhanh chóng. Sản phẩm đã được chứng minh lâm sàng an toàn và lành tính cho da.  HDSD: Sau khi làm sạch da, thoa đều một lượng gel lên mặt và chờ gel thấm vào da. Tiếp theo, thoa đều cùng một lượng kem dưỡng lên mặt. Mát xa nhẹ nhàng để sản phẩm thấm đều vào da, để qua đêm và rửa sạch vào sáng hôm sau. Chú ý: Chỉ sử dụng ngoài da. Tránh tiếp xúc với mắt. Để xa tầm tay trẻ em. Không dùng khi có dấu hiệu dị ứng. Bảo quản nơi thoáng mát, tránh ánh nắng trực tiếp.",
+  "image": "https://i.pinimg.com/736x/20/8f/d5/208fd597ca67afadaa63725becc4ea60.jpg",
+  "images": [],
+  "brand": "AHC",
+  "price": 912000,
+  "category": "6589aaf2bcfeb507d8e3ed53",
+  "countInStock": 4500,
+  "rating": 5,
+  "isFeatured": true,
+  "dateCreated": {
+    "$date": "2023-07-11T17:00:00.000Z"
+  }
+}
+]
