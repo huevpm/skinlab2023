@@ -331,7 +331,7 @@
                                 </div>
                                 <div class="product-info">
                                     <!-- Thông tin đánh giá và giá cả -->
-                                    <h4 class="title"><a href="product-details.html">${product.name}</a></h4>
+                                    <h4 class="title"><a href="product-details.html?product_id=${product.product_id}">${product.name}</a></h4>
                                     <!-- Giá sản phẩm -->
                                 </div>
                                 <div class="product-info">
@@ -346,7 +346,7 @@
                                                 <div class="reviews">150 đánh giá</div>
                                             </div>
                                             <div class="prices">
-                                                <span class="price">${product.price}</span>
+                                                <span class="price">${product.price} VNĐ</span>
                                             </div>
                                         </div>
                                 <!-- Các nút hành động khác -->
@@ -380,26 +380,26 @@
                 }
 
 
-                products.slice(start, end).forEach((product, index) => {
-                    productsHTML += `
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="product-item">
-                        <!-- Phần khác của sản phẩm -->
-                        <div class="product-action">
-                        <button type="button" class="product-action-btn action-btn-quick-view"  data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                            <i class="fa fa-expand"></i>
-                        </button>
-                        <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                            <span>Thêm vào giỏ</span>
-                        </button>
-                        <button type="button" class="product-action-btn action-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                            <i class="fa fa-heart-o"></i>
-                        </button>
-                        </div>
-                    </div>
-                    </div>
-                `;
-                });
+                // products.slice(start, end).forEach((product, index) => {
+                //     productsHTML += `
+                //     <div class="col-md-4 col-sm-6 col-xs-12">
+                //     <div class="product-item">
+                //         <!-- Phần khác của sản phẩm -->
+                //         <div class="product-action">
+                //         <button type="button" class="product-action-btn action-btn-quick-view"  data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                //             <i class="fa fa-expand"></i>
+                //         </button>
+                //         <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                //             <span>Thêm vào giỏ</span>
+                //         </button>
+                //         <button type="button" class="product-action-btn action-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                //             <i class="fa fa-heart-o"></i>
+                //         </button>
+                //         </div>
+                //     </div>
+                //     </div>
+                // `;
+                // });
                 
 
             </script>

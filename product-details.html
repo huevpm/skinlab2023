@@ -452,9 +452,8 @@
                 document.addEventListener('DOMContentLoaded', function () {
                     // Lấy product_id từ URL
                     var urlParams = new URLSearchParams(window.location.search);
-                    var productId = 
-                    // urlParams.get('product_id');
-                    "product01";
+                    var productId = urlParams.get('product_id');
+                    // "product01";
             
                     if (productId) {
                         // Gọi API hoặc đọc file JSON và hiển thị chi tiết sản phẩm dựa trên productId
@@ -501,18 +500,6 @@
                         }
                         return starHTML;
                     }
-            
-                    // Hàm tạo chuỗi HTML cho thông tin chi tiết sản phẩm
-                    // function generateProductDetailsInfo(product) {
-                    //     var infoHTML = '';
-                    //     infoHTML += '<ul class="product-details-info-wrap">';
-                    //     infoHTML += '<li><span><b>Trọng lượng</b></span><p>' + product.weight + '</p></li>';
-                    //     infoHTML += '<li><span><b>Kích cỡ</b></span><p>' + product.size + '</p></li>';
-                    //     infoHTML += '<li><span><b>Thành phần</b></span><p>' + product.ingredients + '</p></li>';
-                    //     infoHTML += '<li><span><b>Thông tin khác</b></span><p>' + product.additionalInfo + '</p></li>';
-                    //     infoHTML += '</ul>';
-                    //     return infoHTML;
-                    // }
 
                 });
             </script>
@@ -546,9 +533,9 @@
                                         <!--== Start Product Item ==-->
                                         <div class="product-item product-st2-item">
                                             <div class="product-thumb">
-                                                <a class="d-block" href="product-details.html">
-                                                    <img src="assets/images/shop/8.png" width="370" height="450"
-                                                        alt="Image-HasTech">
+                                                <a class="d-block" href="product-details.html?product_id=product07">
+                                                    <img src="https://i.pinimg.com/736x/de/86/6f/de866ff998609966992d6f761f7d09b8.jpg" width="370" height="450"
+                                                        alt="Image-HasTech" >
                                                 </a>
                                                 <span class="flag-new">new</span>
                                             </div>
@@ -561,13 +548,12 @@
                                                         <i class="fa fa-star-o"></i>
                                                         <i class="fa fa-star-half-o"></i>
                                                     </div>
-                                                    <div class="reviews">150 reviews</div>
+                                                    <div class="reviews">150 đánh giá</div>
                                                 </div>
-                                                <h4 class="title"><a href="product-details.html">Kem dưỡng ban đêm
-                                                        Klairs</a></h4>
+                                                <h4 class="title"><a href="product-details.html?product_id=product07">Kem dưỡng mắt AHC Luminous Glow Eye Cream for Face 30ml</a></h4>
                                                 <div class="prices">
-                                                    <span class="price">370.000 VNĐ</span>
-                                                    <span class="price-old">425.000 VNĐ</span>
+                                                    <span class="price">680.000 VNĐ</span>
+                                                    <span class="price-old">528.000 VNĐ</span>
                                                 </div>
                                                 <div class="product-action">
                                                     <button type="button" class="product-action-btn action-btn-cart"
@@ -592,11 +578,11 @@
                                         <!--== Start Product Item ==-->
                                         <div class="product-item product-st2-item">
                                             <div class="product-thumb">
-                                                <a class="d-block" href="product-details.html">
-                                                    <img src="assets/images/shop/7.png" width="370" height="450"
+                                                <a class="d-block" href="product-details.html?product_id=product05">
+                                                    <img src="https://i.pinimg.com/736x/65/af/7f/65af7fc87e00f1090c1af3e8a46350e9.jpg" width="370" height="450"
                                                         alt="Image-HasTech">
                                                 </a>
-                                                <span class="flag-new">new</span>
+                                                <span class="flag-new">mới</span>
                                             </div>
                                             <div class="product-info">
                                                 <div class="product-rating">
@@ -607,13 +593,13 @@
                                                         <i class="fa fa-star-o"></i>
                                                         <i class="fa fa-star-half-o"></i>
                                                     </div>
-                                                    <div class="reviews">150 reviews</div>
+                                                    <div class="reviews">150 đánh giá</div>
                                                 </div>
-                                                <h4 class="title"><a href="product-details.html">Toner cấp ẩm Klairs</a>
+                                                <h4 class="title"><a href="product-details.html?product_id=product05">Set 5 Mặt Nạ Peptide Săn Chắc Da AHC</a>
                                                 </h4>
                                                 <div class="prices">
-                                                    <span class="price">266.000 VNĐ</span>
-                                                    <span class="price-old">300.000 VNĐ</span>
+                                                    <span class="price">534.000 VNĐ</span>
+                                                    <span class="price-old">640.000 VNĐ</span>
                                                 </div>
                                                 <div class="product-action">
                                                     <button type="button" class="product-action-btn action-btn-cart"
@@ -638,11 +624,11 @@
                                         <!--== Start Product Item ==-->
                                         <div class="product-item product-st2-item">
                                             <div class="product-thumb">
-                                                <a class="d-block" href="product-details.html">
-                                                    <img src="assets/images/shop/5.png" width="370" height="450"
+                                                <a class="d-block" href="product-details.html?product_id=product08">
+                                                    <img src="https://i.pinimg.com/736x/07/bc/fd/07bcfd1fa1e7e170ce5894ea29e63d73.jpg" width="370" height="450"
                                                         alt="Image-HasTech">
                                                 </a>
-                                                <span class="flag-new">new</span>
+                                                <span class="flag-new">mới</span>
                                             </div>
                                             <div class="product-info">
                                                 <div class="product-rating">
@@ -653,13 +639,13 @@
                                                         <i class="fa fa-star-o"></i>
                                                         <i class="fa fa-star-half-o"></i>
                                                     </div>
-                                                    <div class="reviews">150 reviews</div>
+                                                    <div class="reviews">150 đánh giá</div>
                                                 </div>
-                                                <h4 class="title"><a href="product-details.html">Tonner hoa cúc
-                                                        Klairs</a></h4>
+                                                <h4 class="title"><a href="product-details.html?product_id=product08">Kem Dưỡng Mắt Chống Lão Hóa Cho Toàn Mặt AHC 40ml</a>
+                                                </h4>
                                                 <div class="prices">
-                                                    <span class="price">250.000 VNĐ</span>
-                                                    <span class="price-old">300.000 VNĐ</span>
+                                                    <span class="price">840.000 VNĐ</span>
+                                                    <span class="price-old">940.000 VNĐ</span>
                                                 </div>
                                                 <div class="product-action">
                                                     <button type="button" class="product-action-btn action-btn-cart"
