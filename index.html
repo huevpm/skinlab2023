@@ -264,7 +264,7 @@
                             <div class="products-container">
                                 <!-- Các sản phẩm sẽ được load vào đây -->
                             </div>
-                       <!---- </div>
+                        <!--</div>
                     </div>-->
                 </div>
             </section>
@@ -279,21 +279,25 @@
 
 
 
-                function updateProducts(products) {
-                    const productsContainer = document.querySelector('.products-container');
+                    function updateProducts(products) {
+    const productsContainer = document.querySelector('.products-container');
 
-                    // Khởi tạo một biến để chứa HTML
-                    let productsHTML = '';
+    // Chỉ lấy 6 sản phẩm đầu tiên từ mảng
+    const displayedProducts = products.slice(0, 6);
 
-                    products.forEach((product, index) => {
-                        // Mở một hàng mới mỗi khi index chia hết cho 3
-                        if (index % 3 === 0) {
-                            productsHTML += `<div class="row">`; // Mở row
-                        }
+    // Khởi tạo biến HTML cho sản phẩm
+    let productsHTML = '';
+
+    displayedProducts.forEach((product, index) => {
+        // Mở một hàng mới mỗi khi index chia hết cho 3 hoặc khi đây là sản phẩm đầu tiên
+        if (index % 3 === 0 || index === 0) {
+            productsHTML += `<div class="row">`; // Mở row
+        }
 
                         // Thêm sản phẩm
                         productsHTML += `
-                        <div class="col-6 col-lg-4 col-xl-4 mb-4 mb-sm-8">
+
+                        <div class="col-4 mb-4 mb-sm-8">
                             <div class="product-item product-st3-item">
                             <div class="product-thumb">
                                 <a class="d-block" href="product-details.html?product_id=${product.product_id}">
@@ -356,38 +360,40 @@
                                     </div>
                                     `;
 
-                        // Đóng hàng sau mỗi 3 sản phẩm
-                        if ((index + 1) % 3 === 0) {
-                            productsHTML += `</div>`; // Đóng row
-                        }
-                    });
+                        // Đóng hàng sau mỗi 3 sản phẩm hoặc khi đây là sản phẩm cuối cùng
+        if ((index + 1) % 3 === 0 || index === displayedProducts.length - 1) {
+            productsHTML += `</div>`; // Đóng row
+        }
+    });
 
-                    // Thêm sản phẩm vào container
-                    productsContainer.innerHTML = productsHTML;
-                }
+    // Thêm sản phẩm vào container
+    productsContainer.innerHTML = productsHTML;
+}
 
+function updateRelatedProducts(relatedProducts) {
+    const relatedProductsContainer = document.querySelector('.related-products');
 
-                // products.slice(start, end).forEach((product, index) => {
-                //     productsHTML += `
-                //     <div class="col-md-4 col-sm-6 col-xs-12">
-                //     <div class="product-item">
-                //         <!-- Phần khác của sản phẩm -->
-                //         <div class="product-action">
-                //         <button type="button" class="product-action-btn action-btn-quick-view"  data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
-                //             <i class="fa fa-expand"></i>
-                //         </button>
-                //         <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
-                //             <span>Thêm vào giỏ</span>
-                //         </button>
-                //         <button type="button" class="product-action-btn action-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
-                //             <i class="fa fa-heart-o"></i>
-                //         </button>
-                //         </div>
-                //     </div>
-                //     </div>
-                // `;
-                // });
-                
+    // Chỉ lấy 3 sản phẩm đầu tiên từ mảng sản phẩm liên quan
+    const displayedRelatedProducts = relatedProducts.slice(0, 3);
+
+    // Khởi tạo biến HTML cho sản phẩm liên quan
+    let relatedProductsHTML = '';
+
+    displayedRelatedProducts.forEach((product, index) => {
+        // Các dòng HTML của sản phẩm liên quan
+        relatedProductsHTML += `
+        <div class="col-4 mb-4 mb-sm-8">
+            <div class="product-item product-st3-item">
+                <!-- Nội dung sản phẩm liên quan -->
+            </div>
+        </div>
+        `;
+    });
+
+    // Thêm sản phẩm liên quan vào container
+    relatedProductsContainer.innerHTML = relatedProductsHTML;
+}
+
 
             </script>
 
