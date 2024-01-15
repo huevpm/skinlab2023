@@ -259,13 +259,9 @@
                             </div>
                         </div>
                     </div>
-                    <!--<div class="row mb-n4 mb-sm-n10 g-3 g-sm-6">
-                        <div class="col-6 col-lg-4 mb-4 mb-sm-9">-->
                             <div class="products-container">
                                 <!-- Các sản phẩm sẽ được load vào đây -->
                             </div>
-                        <!--</div>
-                    </div>-->
                 </div>
             </section>
             <!--== End Product Area Wrapper ==-->
@@ -277,7 +273,77 @@
                     })
                     .catch(error => console.error('Error loading product data:', error));
 
+                    fetch('data/products.json') // Thay đổi đường dẫn tới file JSON của sản phẩm bán chạy
+    .then(response => response.json())
+    .then(data => {
+        updateBestsellers(data);
+    })
+    .catch(error => console.error('Error loading bestsellers data:', error));
 
+
+                    function updateBestsellers(bestsellers) {
+    const productsContainer = document.querySelector('.bestsellers-container');
+
+    // Chỉ lấy 3 sản phẩm đầu tiên từ mảng
+    const displayedBestsellers = bestsellers.slice(0, 3);
+
+    // Khởi tạo biến HTML cho sản phẩm bán chạy
+    let bestsellersHTML = '';
+
+    displayedBestsellers.forEach((products, index) => {
+        // Thêm sản phẩm bán chạy
+        if (index % 3 === 0) {
+            bestsellersHTML += `<div class="row">`; // Mở một hàng mới mỗi khi index chia hết cho 3
+        }
+
+        bestsellersHTML += `
+            <div class="col-4 mb-4 mb-sm-10">
+                <div class="product-item product-st2-item">
+                    <div class="product-thumb">
+                        <a class="d-block" href="product-details.html?product_id=${products.product_id}">
+                            <img src="${products.image}" width="370" height="450" alt="${products.name}">
+                        </a>
+                        <span class="flag-new">bán chạy</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <div class="rating">
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <div class="reviews">${products.reviews} đánh giá</div>
+                        </div>
+                        <h4 class="title"><a href="product-details.html?product_id=${products.product_id}">${products.name}</a></h4>
+                        <div class="prices">
+                            <span class="price">${products.price} VNĐ</span>
+                        </div>
+                        <div class="product-action">
+                            <button type="button" class="product-action-btn action-btn-cart"
+                                data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                <span>THÊM VÀO GIỎ</span>
+                            </button>
+                            <button type="button" class="product-action-btn action-btn-quick-view"
+                                data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+                                <i class="fa fa-expand"></i>
+                            </button>
+                            <button type="button" class="product-action-btn action-btn-wishlist"
+                                data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+
+    // Thêm sản phẩm bán chạy vào container
+    productsContainer.innerHTML = bestsellersHTML;
+}
+                  
 
                     function updateProducts(products) {
     const productsContainer = document.querySelector('.products-container');
@@ -370,29 +436,6 @@
     productsContainer.innerHTML = productsHTML;
 }
 
-function updateRelatedProducts(relatedProducts) {
-    const relatedProductsContainer = document.querySelector('.related-products');
-
-    // Chỉ lấy 3 sản phẩm đầu tiên từ mảng sản phẩm liên quan
-    const displayedRelatedProducts = relatedProducts.slice(0, 3);
-
-    // Khởi tạo biến HTML cho sản phẩm liên quan
-    let relatedProductsHTML = '';
-
-    displayedRelatedProducts.forEach((product, index) => {
-        // Các dòng HTML của sản phẩm liên quan
-        relatedProductsHTML += `
-        <div class="col-4 mb-4 mb-sm-8">
-            <div class="product-item product-st3-item">
-                <!-- Nội dung sản phẩm liên quan -->
-            </div>
-        </div>
-        `;
-    });
-
-    // Thêm sản phẩm liên quan vào container
-    relatedProductsContainer.innerHTML = relatedProductsHTML;
-}
 
 
             </script>
@@ -421,9 +464,8 @@ function updateRelatedProducts(relatedProducts) {
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-n4 mb-sm-n10 g-3 g-sm-6">
+                    <!--<div class="row mb-n4 mb-sm-n10 g-3 g-sm-6">
                         <div class="col-6 col-lg-4 mb-4 mb-sm-10">
-                            <!--== Start Product Item ==-->
                             <div class="product-item product-st2-item">
                                 <div class="product-thumb">
                                     <a class="d-block" href="product-details.html">
@@ -478,10 +520,8 @@ function updateRelatedProducts(relatedProducts) {
                                     </div>
                                 </div>
                             </div>
-                            <!--== End prPduct Item ==-->
                         </div>
                         <div class="col-6 col-lg-4 mb-4 mb-sm-10">
-                            <!--== Start Product Item ==-->
                             <div class="product-item product-st2-item">
                                 <div class="product-thumb">
                                     <a class="d-block" href="product-details.html">
@@ -536,10 +576,8 @@ function updateRelatedProducts(relatedProducts) {
                                     </div>
                                 </div>
                             </div>
-                            <!--== End prPduct Item ==-->
                         </div>
                         <div class="col-6 col-lg-4 mb-4 mb-sm-10">
-                            <!--== Start Product Item ==-->
                             <div class="product-item product-st2-item">
                                 <div class="product-thumb">
                                     <a class="d-block" href="product-details.html">
@@ -594,12 +632,15 @@ function updateRelatedProducts(relatedProducts) {
                                     </div>
                                 </div>
                             </div>
-                            <!--== End prPduct Item ==-->
                         </div>
+                    </div>-->
+                    <div class="bestsellers-container">
+                        <!-- Các sản phẩm bán chạy sẽ được load vào đây -->
                     </div>
                 </div>
             </section>
             <!--== End Product Area Wrapper ==-->
+
 
             <!--== Start Brand Logo Area Wrapper ==-->
             <div class="section-space pt-0">
