@@ -219,22 +219,15 @@
                                 <h5 class="product-details-title"></h5>
                                 <div class="product-details-review mb-7">
                                     <div class="product-review-icon">
-                                        <!-- <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-half-o"></i> -->
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
                                     </div>
                                     <button type="button" class="product-review-show">150 đánh giá</button>
                                 </div>
                                 <p class="mb-7">
-                                    <!-- Sữa Rửa Mặt innisfree Dưỡng Ẩm Chiết Xuất Trà Xanh 150g là sản phẩm sữa
-                                    rửa mặt nổi tiếng của thương hiệu innisfree đến từ Hàn Quốc. Sữa rửa mặt được chiết
-                                    xuất 100% từ lá trà xanh tươi từ đảo Jeju đem lại một làn da sạch và ẩm mịn đầy
-                                    dưỡng chất, đồng thời dưỡng ẩm cho làn da không bị khô ráp. Thành phần cải tiến
-                                    Beauty Green Tea chứa 16 loại Amino Acid, giàu dưỡng chất gấp 3,5 lần so với trà
-                                    xanh thông thường, có khả năng phục hồi độ ẩm vượt trội, đem lại làn da sạch và
-                                    khoẻ. -->
                                 </p>
                                 <div class="product-details-pro-qty">
                                     <div class="pro-qty">
@@ -273,33 +266,6 @@
                             <div class="tab-content" id="product-details-nav-tabContent">
                                 <div class="tab-pane" id="specification" role="tabpanel"
                                     aria-labelledby="specification-tab">
-                                    <!-- <ul class="product-details-info-wrap"> -->
-                                        <!-- <li><span><b>Trọng lượng</b></span>
-                                            <p>150g</p>
-                                        </li>
-                                        <li><span><b>Kích cỡ</b></span>
-                                            <p>10 x 10 x 15 cm</p>
-                                        </li>
-                                        <li><span><b>Thành phần</b></span>
-                                            <p>WATER / AQUA / EAU, GLYCERIN, MYRISTIC ACID, LAURIC ACID, POTASSIUM
-                                                HYDROXIDE, STEARIC ACID, GLYCERYL STEARATE, GLYCOL DISTEARATE, PALMITIC
-                                                ACID, LAURYL HYDROXYSULTAINE, POLYQUATERNIUM-22, LAURYL GLUCOSIDE,...s
-                                            </p>
-                                        </li>
-                                        <li><span><b>Thông tin khác</b></span>
-                                            <p>Chứng nhận thuần chay
-                                                Sản phẩm này đã được Cơ quan Chứng nhận Vegan tại Hàn Quốc chứng nhận là
-                                                sản phẩm thuần chay và đảm bảo không sử dụng các nguyên liệu có nguồn
-                                                gốc từ động vật trong suốt quá trình sản xuất và hoàn thiện sản phẩm.
-                                            </p>
-                                        </li>
-                                    </ul>
-
-                                    <p> <b>LƯU Ý:</b> <br>
-                                        1. Ngưng sử dụng sản phẩm khi thấy da có dấu hiệu bất thường.<br>
-                                        2. Luôn đóng nắp sau khi sử dụng. <br>
-                                        3. Dùng ngay sau khi mở nắp.<br>
-                                        4. Rửa sạch ngay với nước nếu sản phẩm tiếp xúc với mắt.</p> -->
                                 </div>
 
                                 <div class="tab-pane fade show active" id="review" role="tabpanel"
@@ -472,20 +438,12 @@
                     function updateProductDetails(product) {
                         // Cập nhật nội dung trang product-details.html dựa trên thông tin sản phẩm
                         document.querySelector('.product-details-thumb img').src = product.image;
-                        // document.querySelector('.flag-new').textContent = 'mới'; // Nếu có thông tin mới
                         document.querySelector('.product-details-collection').textContent = product.category;
                         document.querySelector('.product-details-title').textContent = product.name;
-                        document.querySelector('.product-review-icon').innerHTML = generateStarRating(product.rating);
-                        // document.querySelector('.product-review-show').textContent = product.rating + ' đánh giá';
+                        // document.querySelector('.product-review-icon').innerHTML = generateStarRating(product.rating);
                         document.querySelector('.mb-7').textContent = product.description;
-                        document.querySelector('.price').textContent = product.price.toLocaleString('vi-VN') + ' VNĐ';
-                        document.querySelector('.product-details-pro-qty input').value = 1; // Giá trị mặc định cho số lượng
-                        // Các phần khác có thể được cập nhật tương tự
-            
-                        // Nếu có thông tin sản phẩm khác như trọng lượng, kích cỡ, thành phần, thông tin khác, hãy cập nhật như sau:
+                        document.querySelector('.price').textContent = product.price + ' VNĐ';
                         document.querySelector('.tab-pane').innerHTML = product.richDescription;
-            
-                        // Nếu có các tab khác như "Đặc điểm sản phẩm", "Đánh giá", hãy cập nhật tương tự
                     }
             
                     // Hàm tạo chuỗi HTML cho đánh giá sao
@@ -525,10 +483,12 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row mb-n10">
                         <div class="col-12">
                             <div class="swiper related-product-slide-container">
                                 <div class="swiper-wrapper">
+                                    
                                     <div class="swiper-slide mb-10">
                                         <!--== Start Product Item ==-->
                                         <div class="product-item product-st2-item">
